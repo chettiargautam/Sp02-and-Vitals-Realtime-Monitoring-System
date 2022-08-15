@@ -1,6 +1,5 @@
-# LiveLine :health_worker: :stethoscope:
 ## Background Study - 
-- During the covid 19 period, many lives could be saved if they have been admitted early into hospital. People had faced difficulty in breathing due to decrement in oxygen saturation level in their blood. The early they know about their SpO2 concentration , they faster they can start therpy
+- During the Covid 19 period, many lives could be saved if they have been admitted early into hospital. People had faced difficulty in breathing due to decrement in oxygen saturation level in their blood. The early they know about their SpO2 concentration , they faster they can start therpy
 - It is important to identify whether your heart rate sits within the normal range. If disease or injury weakens the heart, the organs will not receive enough blood to function normally. 
 - Heart attack became common to middle age people, Many a time they find themselves alone in this situation. If the family member can get aware they can approach the person at the earliest.
 - For any infectious disease — one of the cardinal signs of infection is raised body temperature. Increasing body temperature is a symbol of virus/bacteria intrusion inside the body
@@ -9,7 +8,7 @@
 ## About this Project - 
 From the background study, we can say that the early we get info about symptoms/abnormal movement of our body, the more chance we have to save ourselves from disease/severe attacks. 
 <br/>
-With the help of sensor, we are building a **Health Monitoring/Awareness/Risk-Alert** App which will display a Person's Heart rate, SpO2 (oxygen% in the body) level concentration and body temperature. Using MAX30100 Heart Rate Sensor we are measuring all these value and with the help of NodeMCU we are sending all these data to firebase cloud which will fetched by LiveLine app made with flutter and dart and displayed in the App. All the memeber can monitor their family member vitals and furthermore any abnormality in pulse rate/oxygen concentraion will be alerted to user and mail to other family member.Using standerd value, the current condition will be displayed in the app.
+With the help of sensor, we are building a **Health Monitoring/Awareness/Risk-Alert** App which will display a Person's Heart rate, SpO2 (oxygen% in the body) level concentration and body temperature. Using MAX30100 Heart Rate Sensor we are measuring all these value and with the help of NodeMCU we are sending all these data to firebase cloud which will fetched by our app made with flutter and dart and displayed in the App. All the memeber can monitor their family member vitals and furthermore any abnormality in pulse rate/oxygen concentraion will be alerted to user and mail to other family member.Using standerd value, the current condition will be displayed in the app.
 
 ## Components  -
 1. [MAX30100 Heart Rate Sensor](https://robu.in/product/max30100-pulse-oximeter-heart-rate-sensor-module/)
@@ -81,20 +80,14 @@ WIFI_SSID "<WiFi Name>"
 WIFI_PASSWORD "<your WiFi password>"
 ```
 
-- upload the code into NodeMCU
-- press your finger on the sensor and you can see below image in serial monitor
+- Upload the code into NodeMCU
+- Press your finger on the sensor and you can see below image in serial monitor
 ![image](https://user-images.githubusercontent.com/75129076/171648453-be18e114-a4c9-44b3-91ed-1ef2cc97198b.png)
 </br>
-this sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND).
+This sensor can be attached with pinky finger using a tape and NodeMCU can be attached in jacket/shirt and the wire is going to be replaced by a small cell (in that case connect +ve to Vin and -Ve to GND).
 </br>
 
 ![prjkt image](https://user-images.githubusercontent.com/75129076/171649457-5e172d49-f19c-4444-aa83-ea0e530fb455.png)
-
-## App working -
-![home page](https://github.com/arpitpatawat/LiveLine/blob/main/images/home.png)
-![heart rate](https://github.com/arpitpatawat/LiveLine/blob/main/images/hrate.png)
-![spo2](https://github.com/arpitpatawat/LiveLine/blob/main/images/spo2.png)
-![body temp](https://github.com/arpitpatawat/LiveLine/blob/main/images/btemp.png)
 
 </br>
 </br?
