@@ -99,9 +99,3 @@ this sensor can be attached with pinky finger using a tape and NodeMCU can be at
 </br>
 </br?
 
-## Contributors - 
-- [Arpit Patawat](https://github.com/arpitpatawat/)
-- [Daksh Paleria](https://github.com/dakshp07/)
-
-</br>
-If you :heart: this repo, then please :star: this.
